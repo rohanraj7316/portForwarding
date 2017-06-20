@@ -6,6 +6,6 @@ var server = http.createServer(function (req,res) {
     forward(req,res);
 });
 
-server.listen(3000,function () {
+server.listen( process.env.PORT ||3000,function () {
     console.log('magic happens here at 3000');
 });
