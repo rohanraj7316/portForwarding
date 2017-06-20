@@ -16,6 +16,6 @@
   },
   {
     "scripts":
-     { "start": "node app.js"}
+     { "start": "node portForwarding.js"}
    }
 }
